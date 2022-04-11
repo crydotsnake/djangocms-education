@@ -1,0 +1,6 @@
+{
+    "package-name": "djangocms-education",
+    "installed-apps": [
+        "djangocms-education"
+    ]
+}
