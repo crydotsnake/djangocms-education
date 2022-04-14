@@ -9,6 +9,7 @@ class Education(CMSPlugin):
     company = models.CharField(verbose_name='Company', max_length=255)
     job = models.CharField(verbose_name='Job', max_length=255)
     start_date = models.DateField(verbose_name='Start date')
+    end_date = models.DateField(verbose_name='End date', blank=True, null=True)
     description = HTMLField(verbose_name='Description', max_length=2048, null=True, blank=True)
     website = models.CharField(verbose_name='Website', max_length=255, null=True, blank=True)
     active_post = models.BooleanField(verbose_name='Active Position?')
