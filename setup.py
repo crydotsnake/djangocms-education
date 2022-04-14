@@ -19,7 +19,7 @@ setup(
     maintainer_email='simon@django-cms.org',
     url='https://github.com/crydotsnake/djangocms-education',
     license='BSD-3-Clause',
-    description='Adds Add Plugin for your Education and Experiences.',
+    description='Adds a Plugin for embedding your Resume to your website.',
     long_description=open('README.rst').read(),
     packages=find_packages(),
     include_package_data=True,

@@ -1,8 +1,8 @@
 ######################
-DjangoCMS Education
+djangoCMS Education
 ######################
 
-DjangoCMS Education is a simple plugin for embedding your CV in your website.
+djangoCMS Education is a simple plugin for embedding your Resume in your website.
 
 ============
 Installation
@@ -10,8 +10,14 @@ Installation
 
 .. code-block::
 
-       -e git+https://github.com/crydotsnake/djangocms-education.git#egg=djangocms-education
+       pip install djangocms-education
 
 
 Add ``djangocms_education`` to your ``INSTALLED_APPS``
 
+============
+Apply migrations for the database
+============
+
+
+Run ``python manage.py migrate djangocms_education``
